@@ -46,6 +46,18 @@ body {
     width: 100%;
     margin: 5px;
     background-color: whitesmoke;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.screen > *{
+    padding: 10px;
+}
+
+.current{
+    font-size: 30px;
 }
 
 .button{
@@ -74,4 +86,14 @@ body {
 
 .equal:hover{
     background-color: rgb(101, 255, 101);
+}
+
+.clear{
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.clear:hover{
+    width: 100%;
+    background-color: rgb(161, 90, 228);
 }
